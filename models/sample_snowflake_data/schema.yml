@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: 'second_model_name'
+    description: 'Model for store data'
+    database: 'SNOWFLAKE_SAMPLE_DATA'
+    schema: 'TPCDS_SF10TCL'
+    tables:
+     - name: 'store_sales'
+       description: 'store sales data'
